@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-
-// import './Header12.css'
+import './Header12.css'
 
  import Githubicon from '../Images/github.png';
  import linkedinicon from '../Images/linkedin.png';
@@ -42,10 +41,10 @@ function Header() {
         </ul>
       
       
-      <a href= "https://github.com/nandhakumar2002" target="_blank">
+      <a href= "https://github.com/SathyaSeelanG" target="_blank">
             <img src={Githubicon} alt="GitHub" height="40" width="40" />
           </a>
-          <a href="https://www.linkedin.com/in/nandha-kumar-g-b40038229/" target="_blank">
+          <a href="https://www.linkedin.com/in/sathya-seelan-gunasekar/" target="_blank">
             <img src={linkedinicon} alt="LinkedIn" height="40" width="40" />
           </a>
           <a href={Resume} className="download-resume-button" download>Resume</a>
