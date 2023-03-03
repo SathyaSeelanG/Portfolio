@@ -36,3 +36,315 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header h2 {
+  margin: 0;
+}
+
+.section-header a {
+  font-size: 18px;
+}
+
+.job {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin-bottom: 10px;
+}
+
+.job p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.job ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.education {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  margin-bottom: 10px;
+}
+
+.education p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: #f5f2f2;
+}
+
+nav li {
+  margin-right: 10px;
+  padding: 5px;
+  
+}
+
+nav a {
+  
+  color: #eee8e8;
+  text-decoration: none;
+}
+
+/* Style the main content */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul a {
+  color: #151515;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+#about {
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#education {
+  margin-bottom: 40px;
+}
+
+#education h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.my-certificate {
+  margin-bottom: 1rem;
+}
+
+.my-component {
+  margin-top: 1rem;
+}
+.container {
+  padding-bottom: 1rem;
+}
+
+.my-component {
+  padding-top: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.my-component {
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-certificate {
+  margin-bottom: 1rem;
+}
+
+.my-component {
+  margin-top: 1rem;
+}
