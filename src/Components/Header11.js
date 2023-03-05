@@ -32,13 +32,13 @@ function Header() {
           </div>
           <div> 
       <nav>
-        <ul>
+        {/* <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#education ">Education</a></li>
           <li><a href="#ContactForm ">ContactForm</a></li>
-        </ul>
+        </ul> */}
       
       
       <a href= "https://github.com/SathyaSeelanG" target="_blank">
