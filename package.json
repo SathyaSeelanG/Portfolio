@@ -1,5 +1,5 @@
 {
-  "name": "resume",  
+  "name": "sathya",  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://sathyaseelangunasekar.github.io/resume/ ",
+  "homepage": "https://sathyaseelangunasekar.github.io/sathya/ ",
   "browserslist": {
     "production": [
       ">0.2%",
