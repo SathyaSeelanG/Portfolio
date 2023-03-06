@@ -3,7 +3,7 @@ import './Header12.css'
 
  import Githubicon from '../Images/github.png';
  import linkedinicon from '../Images/linkedin.png';
- import Resume from '../resume.pdf';
+ import Resume from '../Resume.pdf';
 
 function Header() {
   useEffect(() => {
