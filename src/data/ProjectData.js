@@ -42,6 +42,15 @@ export const ProjectList = [
     github_url: "https://github.com/SathyaSeelanG/Wallmart_Sales_Analysis_Python",
     demo_url: "",
   },
+  {
+    img: "https://pbs.twimg.com/card_img/1751690087476146176/yUimVgUp?format=png&name=small",
+    title: "Chia Currency Converter",
+    description:
+      "Chia Currency Convert streamlines Chia to any currency, user-friendly interface ensures swift, accurate Conversions.",
+    tech_stack: ["Nextjs ", "React js","Chia "],
+    github_url: "",
+    demo_url: "https://www.spacescan.io/tools/converter/currency",
+  },
 ];
 
 // --------------------------------------- Skills
