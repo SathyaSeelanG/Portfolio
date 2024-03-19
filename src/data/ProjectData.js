@@ -43,7 +43,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "https://pbs.twimg.com/card_img/1751690087476146176/yUimVgUp?format=png&name=small",
+    img: "https://raw.githubusercontent.com/SathyaSeelanG/Portfolio/e7ab083f50926cd1d3ceda5d5d825236f626d3ad/src/assets/Images/CHIA.jpg",
     title: "Chia Currency Converter",
     description:
       "Chia Currency Convert streamlines Chia to any currency, user-friendly interface ensures swift, accurate Conversions.",
