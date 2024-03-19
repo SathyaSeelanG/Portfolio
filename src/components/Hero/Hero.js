@@ -48,7 +48,7 @@ function Hero() {
                     500,
                     'A Software Engineer.',
                     500,
-                    'Blockchain Explorer.',
+                    'Chia Blockchain Developer.',
                     500,
                     'A Full-Stack Developer.',
                     1000,
