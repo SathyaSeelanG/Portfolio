@@ -1,4 +1,7 @@
-Sathya seelan portfolio
 https://sathyaseelang.github.io/Portfolio/
 
-npm install -g react-scripts
+
+git checkout gh-pages
+git add .
+git commit -m "Update Changes"
+git push origin gh-pages
