@@ -11,11 +11,11 @@ import {
 import ScrollAnimation from "react-animate-on-scroll";
 function About() {
   return (
-    <ContactWrapper id="about">
+    <ContactWrapper id="skill">
       <div className="Container">
         <div className="SectionTitle">Skills</div>
         <div className="BigCard">
-        {/* <ScrollAnimation animateIn="fadeInLeft">
+          {/* <ScrollAnimation animateIn="fadeInLeft">
           <Image
             src="/man-svgrepo-com.svg"
             alt="man-svgrepo"
@@ -41,7 +41,7 @@ function About() {
                 I have become confident using the following technologies:
               </div>
             </ScrollAnimation> */}
-            
+
 
             <Technologies>
               {stackList.map((stack, index) => (
