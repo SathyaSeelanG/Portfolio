@@ -25,7 +25,8 @@ function About() {
         fill="#151418ff"
         transform="rotate(-180 720 200)"
       ></path>
-    </svg><ContactWrapper id="about">
+    </svg>
+      <ContactWrapper id="about">
         <div className="Container">
           <div className="SectionTitle">About Me</div>
           <div className="BigCard">
@@ -42,12 +43,12 @@ function About() {
               {/* <br /><br /> */}
 
               <ScrollAnimation animateIn="fadeInLeft">
-               I'm a software developer proficient in Python, React, Node.js, Java, and HTML.
-               With a passion for technology, I leverage these tools to solve complex problems and make people's lives easier. I specialize in building modern web applications using React and Node.js for scalable and user-friendly interfaces and backends. My experience in Java also allows me to build robust large-scale enterprise applications. I have a solid understanding of SQL and NoSQL databases and am always staying up-to-date with the latest industry trends and technologies. 
-              I'm a team player and committed to delivering high-quality work that meets the needs of end-users.   </ScrollAnimation>
+                I'm a software developer proficient in Python, React, Node.js, Java, and HTML.
+                With a passion for technology, I leverage these tools to solve complex problems and make people's lives easier. I specialize in building modern web applications using React and Node.js for scalable and user-friendly interfaces and backends. My experience in Java also allows me to build robust large-scale enterprise applications. I have a solid understanding of SQL and NoSQL databases and am always staying up-to-date with the latest industry trends and technologies.
+                I'm a team player and committed to delivering high-quality work that meets the needs of end-users.   </ScrollAnimation>
 
               <br /><br />
-{/* 
+              {/* 
               <ScrollAnimation animateIn="fadeInLeft">
                 Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
                 <div className="tagline2">
