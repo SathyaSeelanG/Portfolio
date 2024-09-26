@@ -22,11 +22,11 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://www.linkedin.com/in/sathya-seelan-gunasekar/"
+            href="https://www.linkedin.com/in/sathya--seelan/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Resume
+            Connect with me
           </a>
         </NavBtn>
         <Bars onClick={toggle} />
