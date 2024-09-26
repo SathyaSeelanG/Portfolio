@@ -40,16 +40,16 @@ function ScrollToTop() {
     }, []);
 
     return (
-        
-        shouldRender &&
-        
-        <Tooltip title='Scroll to top' placement='top' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
-        
-        <div style={{ backgroundColor: 'black', height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-  <h1 style={{ color: 'white', fontWeight: 'bold', margin: '0' }}> &copy; 2023 [ Sathya Seelan G   ]</h1>
-</div>
 
-{/* <div  style={{ backgroundColor:'black' , height:'50px'}} >
+        shouldRender &&
+
+        <Tooltip title='Scroll to top' placement='top' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
+
+            <div style={{ backgroundColor: 'black', height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <h1 style={{ color: 'white', fontWeight: 'bold', margin: '0' }}> &copy; 2024 [ Sathya Seelan G   ]</h1>
+            </div>
+
+            {/* <div  style={{ backgroundColor:'black' , height:'50px'}} >
     <h1 style={{ color: 'white', fontWeight: 'bold' }} >copy</h1>
     <h3 >&copy; 2023 [ Sathya Seelan G   ]</h3>
 </div> */}
