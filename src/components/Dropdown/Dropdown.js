@@ -91,6 +91,9 @@ function Dropdown({ isOpen, toggle }) {
           rel="noopener noreferrer"
         >
           Connect With Me
+
+
+
         </a>
       </NavBtn>
     </SiderBar>
