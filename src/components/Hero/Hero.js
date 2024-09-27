@@ -48,13 +48,13 @@ function Hero() {
                     500,
                     'A Software Engineer.',
                     500,
-                    'Chia Blockchain Developer.',
+                    'Chia Blockchain Research Analyst.',
                     500,
                     'A Full-Stack Developer.',
                     1000,
-                    'A BSC-IT graduate.',
-                    1000,
-                    'Chia Explorer',
+                    'A MCA Candidate.',
+                    // 1000,
+                    // 'Chia Explorer',
                     // 1000,
                     // 'An innovative thinker.',
                     // 1000,
@@ -102,7 +102,7 @@ function Hero() {
                 src="/man-svgrepo-com.svg"
                 alt="man-svgrepo"
               /> */}
-              <img src={logoImage} alt="Header Logo"  style={{ borderRadius:"120px"}}/> 
+              <img src={logoImage} alt="Header Logo" style={{ borderRadius: "120px" }} />
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
@@ -117,7 +117,7 @@ function Hero() {
           </ScrollLink>
         </ScrollDown>
         </ScrollAnimation>} */}
-        <FixSocialIcon/>
+        <FixSocialIcon />
       </HeroContainer>
     </main>
   );
