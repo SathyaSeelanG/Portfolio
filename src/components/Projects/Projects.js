@@ -22,8 +22,17 @@ function Projects() {
         <div className="Container">
           <div className="SectionTitle">Projects</div>
           <ProjectCard />
+          <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+            <button
+              className="btn PrimaryBtn btn-shadow"
+              onClick={() => (window.location.href = "/projects")}
+            >
+              More Projects
+            </button>
+          </div>
         </div>
       </div>
+
     </>
   );
 }

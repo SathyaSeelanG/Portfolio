@@ -1,0 +1,80 @@
+/* src/components/Header.css */
+.Nav {
+    background: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.NavLinkHome {
+    color: rgb(119, 119, 121);
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.NavLinkHome:hover {
+    color: #f6f6f6;
+}
+
+.NavLink {
+    color: rgb(119, 119, 121);
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.NavLink:hover {
+    color: black;
+}
+
+.Logo img {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.Bars {
+    display: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Bars {
+        display: block;
+    }
+
+    .NavMenu {
+        display: none;
+    }
+}
+
+.NavMenu {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+}
+
+.menu-item+.menu-item {
+    margin-left: 1rem;
+}
+
+.NavBtn {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .NavBtn {
+        display: none;
+    }
+}

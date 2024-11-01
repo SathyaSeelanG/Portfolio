@@ -26,7 +26,7 @@ function Hero() {
   return (
     <main>
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Header toggle={toggle} />
+      <Header toggle={toggle} home={true} />
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>

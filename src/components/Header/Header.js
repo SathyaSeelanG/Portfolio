@@ -1,25 +1,34 @@
+
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 import logoImage from '../../assets/Images/SSlogo.jpg';
-const Header = ({ toggle }) => {
+import './Header.css'; // Import the CSS file
+import { Link } from "react-router-dom";
+
+import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+const Header = ({ toggle, home }) => {
   return (
     <div className="Container" style={{ padding: 0 }}>
-      <Nav>
-        <Logo to="/">
+      <nav className="Nav">
+        <div className="Logo">
           <img src={logoImage} alt="Header Logo" />
-        </Logo>
-        <NavMenu>
-          <NavLink className="menu-item" to="projects">
-            Projects
-          </NavLink>
-          <NavLink className="menu-item" to="about">
-            About
-          </NavLink>
-          <NavLink className="menu-item" to="skill">
-            Skills
-          </NavLink>
-        </NavMenu>
-        <NavBtn>
+        </div>
+        {home ? (
+          <div className="NavMenu">
+            <NavLink className={home ? "NavLinkHome menu-item" : "NavLink menu-item"} to="projects">
+              Projects
+            </NavLink>
+            <NavLink className={home ? "NavLinkHome menu-item" : "NavLink menu-item"} to="about">
+              About
+            </NavLink>
+            <NavLink className={home ? "NavLinkHome menu-item" : "NavLink menu-item"} to="skill">
+              Skills
+            </NavLink>
+          </div>) : (<div className="NavMenu">
+            <Link className={home ? "NavLinkHome menu-item" : "NavLink menu-item"} to="/">
+              Home
+            </Link>
+          </div>)}
+        <div className="NavBtn">
           <a
             className="btn PrimaryBtn"
             href="https://www.linkedin.com/in/sathya--seelan/"
@@ -28,9 +37,9 @@ const Header = ({ toggle }) => {
           >
             Connect With Me
           </a>
-        </NavBtn>
-        <Bars onClick={toggle} />
-      </Nav>
+        </div>
+        <div className="Bars" onClick={toggle} />
+      </nav>
     </div>
   );
 };

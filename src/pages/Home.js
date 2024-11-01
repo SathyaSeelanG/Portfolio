@@ -13,13 +13,13 @@ function Home() {
     <>
       <Hero />
       <About />
-      <Tech/>
+      <Tech />
       <Contributions />
-      <Projects /> 
+      <Projects />
       {/* <Contact />       */}
       {/* <FixSocialIcon /> */}
 
-      
+
       <Footer />
       <ScrollToTop />
     </>
